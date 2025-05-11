@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Standard Awareness Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            background-image: url('images/bg.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            text-align: center;
+            color: white; 
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #007BFF; 
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div class="button-container">
+            <a href="flip.html" class="button">Games</a>
+            <a href="quiz.html" class="button">Quizzes</a>
+        </div>
+        <h1>Welcome to the Indian Standards Awareness Platform</h1>
+        <button onclick="viewStandards()">View Standards</button>
+    </div>
+
+    <script>
+        function viewStandards() {
+            window.location.href = "home.html";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    background: url('images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+#back-to-home {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff7f50;
+}
+
+#back-to-home:hover {
+    background-color: #e55337;
+}
+
+.standards-container {
+    padding: 20px;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    color: white; 
+}
+
+.standards-card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.4s ease, box-shadow 0.4s ease; 
+}
+
+.standards-card:hover {
+    transform: scale(1.01); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
